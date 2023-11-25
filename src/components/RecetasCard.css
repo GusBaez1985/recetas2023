@@ -1,8 +1,12 @@
-    
+    *{
+        background-color: antiquewhite;
+    }
     .recetasCard{
         list-style: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
+        color: brown;
+        margin-bottom: 1rem;
     }
     
 
@@ -10,11 +14,22 @@
    .recetaImage{
         border-radius: 10px;
         background-color: azure;
-        width: 230px;
-        height: 345px;
+        width: 308.33px;
+        height: 231px;
+        transition: filter 0.3s;
+        filter: grayscale(1.1);
+        margin-bottom: 1rem;
+    }
+    .recetaImage:hover {
+        filter: grayscale(0%); /* Al pasar el ratón por encima, anula la escala de grises (imagen en color) */
+        transform: scale(1.15);
     }
 
-    
+    .recetaTitle {
+        /* Add styles for the title here, for example: */
+        color: black;
+        text-decoration: none; /* Remove underline */
+      }
 
     @media(max-width:560px){
         .recetaImage{

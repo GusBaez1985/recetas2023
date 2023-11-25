@@ -1,6 +1,6 @@
 .recetasGrid{
     display: grid;
-    grid-template-columns: repeat(5,230px);
+    grid-template-columns: repeat(auto-fill,308.33px);
     gap:25px;
     padding: 40px;
     justify-content: center;

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import "./RecetasCard.css"
 
 export const RecetasCard = ({ receta }) => {
-  const imgURL=`https://spoonacular.com/recipes/${receta.image}`;
+  const imgURL=`${receta.image}`;
   
  
   return (
