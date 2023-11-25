@@ -3,12 +3,18 @@
     }
     .recetasCard{
         list-style: none;
+        font-style:oblique;
         font-size: 1rem;
         text-align: center;
-        color: brown;
+        
         margin-bottom: 1rem;
     }
-    
+    .recetasCard a {
+        text-decoration: none; /* Esto quitará el subrayado a los enlaces dentro de .recetasCard */
+        /* Otros estilos para los enlaces si es necesario */
+        color:brown ;
+        font-weight: bold;
+    }
 
 
    .recetaImage{
@@ -25,11 +31,7 @@
         transform: scale(1.15);
     }
 
-    .recetaTitle {
-        /* Add styles for the title here, for example: */
-        color: black;
-        text-decoration: none; /* Remove underline */
-      }
+    
 
     @media(max-width:560px){
         .recetaImage{
